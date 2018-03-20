@@ -26,3 +26,15 @@ By using '--', it is promising the command line that there are no more options a
 
 5. Why might you want to reset your files back to a previous commit?
 This would be extremely useful if you made a change that you didn't want, or didn't work and you want to start from your previous commit. 
+
+
+
+
+1. What command do you use to create a branch?
+git branch
+
+2. What command do you use to use a different branch?
+git checkout
+
+3. Why would you want to use a branch other than the default master?
+You would want to use another branch other than the default master when you're working on multiple features. This will avoid any unfinished features on the master branch.
