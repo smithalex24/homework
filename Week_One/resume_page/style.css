@@ -9,6 +9,21 @@ h3 {
 }
 body {
 	margin: 0 auto;
-	
 
+	
+}
+.column {
+	float: left;
+	width: 9%;
+	border: 1px solid black;
+
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+div {
+	font-family: 'IBM Plex Serif', serif;
 }
