@@ -38,3 +38,12 @@ git checkout
 
 3. Why would you want to use a branch other than the default master?
 You would want to use another branch other than the default master when you're working on multiple features. This will avoid any unfinished features on the master branch.
+
+
+1. Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged.
+
+git merge is used to make changes from one branch to another. A pull request is used to allow somebody else to fork and look at your code before merging.
+
+
+2. What command do you use to send all of the work that you've done locally to your remote repository?
+git push 
