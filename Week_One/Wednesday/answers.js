@@ -66,7 +66,9 @@ function cat(){
 
 function number(){
 	for(let i = 1; i <= 100; i++){
-		if(i % 3 === 0){
+	if(i % 3 === 0 && i % 5 === 0){
+		console.log("FizzBuzz")
+	}else if(i % 3 === 0){
 			console.log("Fizz");
 	}else if(i % 5 === 0){
 		console.log("Buzz");
@@ -74,10 +76,26 @@ function number(){
 }
 }
 
+//GETTING TO KNOW YOU 
 
 
+// Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
 
+// Karolin just had her birthday; change Karolin's array to reflect her being a year older.
 
+// Change Matt H's hometown from Philadelphia to "Gotham City".
+
+// Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
+
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+
+thom[0] = "Gameboy";
+kristyn[1] = 6;
+matt[2] = "Gotham City";
+kristyn[2] = "Brooklyn";
 
 
 
@@ -90,3 +108,9 @@ kitten();
 cat();
 
 number();
+
+console.log(thom);
+
+console.log(kristyn);
+
+console.log(matt);
