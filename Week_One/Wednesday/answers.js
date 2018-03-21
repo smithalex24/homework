@@ -9,3 +9,18 @@ function count(){
 }
 
 
+//GET EVEN
+
+//1. Write a for loop that will log only the even numbers 0 through 200.
+
+function even(){
+	for(let i = 0; i <= 200; i++){
+		if(i % 2 === 0){
+			console.log(i);
+		}
+	}
+}
+
+count();
+
+even();
