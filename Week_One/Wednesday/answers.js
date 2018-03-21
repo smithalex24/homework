@@ -164,6 +164,26 @@ for(let i = 1; i <= 3; i++){
 	console.log("Thom will be wearing: " + thomsCloset[0][thomRandomShirt] + " and " + thomsCloset[1][thomRandomPants] + " and " + thomsCloset[2][thomRandomAccessories]);
 }
 
+// Dirty Laundry 
+
+var washClothes = function(){
+for(let i = 0; i < kristynsCloset.length; i++){
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+}
+washClothes();
+
+//Inventory 
+
+var inventory = function(){
+for(i = 0; i < thomsCloset.length; i++){
+  for(x = 0; x < thomsCloset[i].length; x++){
+    console.log("Thoms inventory item is:" + thomsCloset[i][x]);
+  }
+}
+
+
+}
 
 count();
 
