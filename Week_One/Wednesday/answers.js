@@ -108,6 +108,63 @@ for(let i = 0; i < ninjaTurtles.length; i++){
 }
 }
 
+//RETURN OF THE CLOSETS
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans",
+  ]
+];
+
+kristynsCloset.shift();
+
+var kristynShoe = "left shoe";
+
+thomsCloset[2].push(kristynShoe);
+
+//3 outfits for Kristyn
+
+for(let i = 1; i <= 3; i++){
+	kristynRandom = Math.floor((Math.random() * (kristynsCloset.length - 1))); 
+
+console.log("Kristyn will be wearing: " + kristynsCloset[kristynRandom] + " and " + kristynsCloset[kristynRandom]);
+}
+
+// 3 outfits for Thom
+
+for(let i = 1; i <= 3; i++){
+	thomRandomShirt = Math.floor(Math.random() * (thomsCloset[0].length - 1));
+	thomRandomPants = Math.floor(Math.random() * (thomsCloset[1].length - 1));
+	thomRandomAccessories = Math.round(Math.random() * (thomsCloset[2].length - 1));
+	console.log("Thom will be wearing: " + thomsCloset[0][thomRandomShirt] + " and " + thomsCloset[1][thomRandomPants] + " and " + thomsCloset[2][thomRandomAccessories]);
+}
+
+
 count();
 
 even();
@@ -125,3 +182,5 @@ console.log(kristyn);
 console.log(matt);
 
 toUpperCase(ninjaTurtles);
+
+console.log(thomsCloset);
