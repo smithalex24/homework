@@ -97,7 +97,16 @@ kristyn[1] = 6;
 matt[2] = "Gotham City";
 kristyn[2] = "Brooklyn";
 
+//YELL AT NINJA TURTLES
 
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+var toUpperCase = function(arr){
+for(let i = 0; i < ninjaTurtles.length; i++){
+	console.log(arr[i].toUpperCase());
+
+}
+}
 
 count();
 
@@ -114,3 +123,5 @@ console.log(thom);
 console.log(kristyn);
 
 console.log(matt);
+
+toUpperCase(ninjaTurtles);
