@@ -46,13 +46,38 @@ function cat(){
 		console.log('the catnip made me do it');
 		break;
 	case 2: 
-		console.log('why does the red dot always get away')
+		console.log('why does the red dot always get away');
 		break;
 
 		}
 	}
 }
 }
+
+//FIZZ BUZZ
+
+// Write a javascript application that logs all numbers from 1 - 100.
+
+// If a number is divisible by 3 log "Fizz" instead of the number.
+
+// If a number is divisible by 5 log "Buzz" instead of the number.
+
+// If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+
+function number(){
+	for(let i = 1; i <= 100; i++){
+		if(i % 3 === 0){
+			console.log("Fizz");
+	}else if(i % 5 === 0){
+		console.log("Buzz");
+}
+}
+}
+
+
+
+
+
 
 
 
@@ -63,3 +88,5 @@ even();
 kitten();
 
 cat();
+
+number();
