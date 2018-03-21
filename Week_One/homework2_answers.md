@@ -47,3 +47,11 @@ git merge is used to make changes from one branch to another. A pull request is 
 
 2. What command do you use to send all of the work that you've done locally to your remote repository?
 git push 
+
+PART 2: 
+
+Watch HTML video
+
+PART 3: 
+
+
