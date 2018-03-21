@@ -175,15 +175,26 @@ washClothes();
 
 //Inventory 
 
-var inventory = function(){
-for(i = 0; i < thomsCloset.length; i++){
-  for(x = 0; x < thomsCloset[i].length; x++){
-    console.log("Thoms inventory item is:" + thomsCloset[i][x]);
-  }
+
+function inventoryThom() {
+    for (let i = 0; i < thomsCloset.length; i++)
+         for(x = 0; x < thomsCloset[i].length; x++) {
+        console.log(`Thoms' closet includes ${thomsCloset[i][x]}.`);
+}
+}
+
+//MUTLIPLES OF 3 AND 5
+
+function multiple(){
+for(let i = 0; i <= 1000; i++){
+	if(i % 3 === 0 || i % 5 === 0){
+		console.log(i);
+	}
+
+}
 }
 
 
-}
 
 count();
 
@@ -204,3 +215,7 @@ console.log(matt);
 toUpperCase(ninjaTurtles);
 
 console.log(thomsCloset);
+
+inventoryThom();
+
+multiple();
